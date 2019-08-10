@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "server": "nodemon index.js"
   },
   "repository": "https://github.com/LambdaSchool/webdb-i-challenge",
@@ -12,6 +13,7 @@
     "sqlite3": "^4.0.9"
   },
   "devDependencies": {
+    "eslint": "^6.1.0",
     "nodemon": "^1.19.1"
   }
 }
